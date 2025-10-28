@@ -1,0 +1,5 @@
+#!/bin/tcsh
+
+echo "This is a tcsh script example."
+set fruits = (apple orange banana)
+echo "Available fruits: $fruits"
