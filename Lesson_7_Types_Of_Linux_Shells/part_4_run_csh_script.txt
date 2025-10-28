@@ -1,0 +1,5 @@
+#!/bin/csh
+
+echo "Running C shell script..."
+set current_date = `date`
+echo "Current date is: $current_date"
