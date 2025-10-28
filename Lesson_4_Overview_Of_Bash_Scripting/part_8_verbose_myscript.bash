@@ -1,0 +1,1 @@
+bash -v myscript.sh
