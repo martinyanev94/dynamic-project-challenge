@@ -1,0 +1,8 @@
+#!/bin/ksh
+
+declare -A user_array=( ["Alice"]="Developer" ["Bob"]="Designer" )
+
+echo "Users and their roles:"
+for user in "${!user_array[@]}"; do
+    echo "$user is a ${user_array[$user]}"
+done
